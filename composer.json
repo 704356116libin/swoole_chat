@@ -1,0 +1,33 @@
+{
+  "name": "swoole/my",
+  "description": "swoole demo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bin",
+      "email": "704356116@qq.com"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": "^7.2.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^4.1",
+    "symfony/panther": "^0.1.0",
+    "phpunit/phpunit": "^7.3",
+    "predis/predis": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
